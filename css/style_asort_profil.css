@@ -284,23 +284,38 @@ header .wrapper .lang .ru{
 
 /*benefits*/
 section.box-benefits {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 section.box-benefits .benefit {
   display: inline-block;
   width: 19%;
+  vertical-align: top;
+  position: relative;
 }
 section.box-benefits .benefit img {
-
+  position: absolute;
 }
-section.box-benefits .benefit .right-slide {
-
+section.box-benefits .benefit .right-side {
+  margin-left: 45px;
+  /*margin-top: -41px;*/
 }
-section.box-benefits .benefit .right-slide h4 {
-
+section.box-benefits .benefit .right-side h4 {
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 98, 92);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.3;
+  margin-bottom: 0;
 }
-section.box-benefits .benefit .right-slide p {
 
+section.box-benefits .benefit .right-side p {
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  line-height: 1.3;
+  padding-top: 5px;
+  width: 130px;
 }
 
 /*description*/
@@ -308,65 +323,235 @@ section.box-description {
   margin-bottom: 100px;
 }
 section.box-description .left-side {
-
+  width: 770px;
+  float: left;
 }
 section.box-description .left-side .text {
-
+  background: #f5f6f6;
+  padding-bottom: 30px;
+  position: relative;
 }
-section.box-description .left-side .text p {
-
+section.box-description .left-side .text p, .more {
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(74, 74, 73);
+    line-height: 1.4;
+    padding: 40px;
+    padding-bottom: 20px;
 }
-section.box-description .left-side .text a {
-
+section.box-description .left-side .text .more {
+  padding-top: 0;
+}
+section.box-description .left-side .text span {
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 98, 92);
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0 0 0 40px;
+    cursor: pointer;
+}
+section.box-description .left-side .text .certificates {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px 80px;
+  display: none;
+}
+section.box-description .left-side .text .certificates a {
+  margin-right: 10%;
+}
+section.box-description .left-side .text .certificates i {
+  position: absolute;
+  right: 40px;
+  top: 40%;
+  font-size: 60px;
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+section.box-description .left-side .text .certificates i:hover {
+  opacity: 1;
 }
 section.box-description .left-side .buts {
-
+float: right;
 }
 section.box-description .left-side .buts a {
-
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 98, 92);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    /*padding: 20px 40px;*/
+    border: 1px solid rgb(0, 98, 92);
+    display: inline-block;;
+    width: 210px;
+    height: 60px;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
 }
-
+section.box-description .left-side .buts a:nth-child(2) {
+  line-height: 1.467;
+  padding-top: 7px;
+}
+section.box-description .left-side .buts a:hover {
+  background: rgb(0, 98, 92);
+  color: white;
+}
+section.box-description .left-side .buts a i {
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  font-size: 30px;
+}
 section.box-description .right-side {
-
+  width: 350px;
+  float: right;
 }
 section.box-description .right-side .pics {
   display: inline-block;
+  margin-right: 14.5px;
 }
 section.box-description .right-side .pics:first-child {
-
+  margin: 0;
+  margin-bottom: 15px;
+  height: 240px;
+  overflow: hidden;
+}
+section.box-description .right-side .pics:last-child {
+    margin-right: 0;
 }
 /*types*/
 section.box-types {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 section.box-types .left-side {
-
+display: inline-block;
+width: 230px;
+height: 205px;
 }
 section.box-types .left-side h2 {
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(237, 239, 241);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 2px;
+    background:  rgb(0, 98, 92);
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+}
+section.box-types .left-side h2 i {
+  font-size: 20px;
 
 }
 section.box-types .left-side .grey_bg {
-
+  background: #f5f6f6;
+  padding: 10px 40px 20px 40px;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(74, 74, 73);
+  font-weight: bold;
+  line-height: 1.333;
+  height: 160px
 }
 section.box-types .left-side .grey_bg img {
-
+padding: 10px 0 5px 0;
+}
+section.box-types .center-side {
+  margin-left: 55px;
+  display: inline-block;
+  width: 490px;
+  height: 205px;
+  vertical-align: top;
 }
 section.box-types .center-side h2 {
-
+  width: 145px;
+  height: 45px;
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb(237, 239, 241);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  letter-spacing: 2px;
+  background:  rgb(0, 98, 92);
+  display: inline-block;
 }
 section.box-types .center-side .grey_bg {
-
+    background: #f5f6f6;
+    padding: 45px 20px;
 }
 section.box-types .center-side .grey_bg .color_box {
-
+  width: 70px;
+  height: 70px;
+  border: 1px solid #cccccc;
+  font-size: 10px;
+  font-family: "Myriad Pro";
+  line-height: 1.328;
+  text-align: center;
+  display: inline-block;
+  margin-left: 21px;
+  padding-top: 20px;
+  color: white;
+  cursor: pointer;
+}
+section.box-types .center-side .grey_bg .color_box:first-child {
+  margin-left: 0px;
+  color: rgb(87, 88, 90);
 }
 section.box-types .right-side {
+  margin-left: 47px;
+  display: inline-block;
+  width: 340px;
+  height: 205px;
+  vertical-align: top;
+  border: 1px solid rgb(0, 98, 92);
+}
+section.box-types .right-side img {
+  width: 100%;
+  padding: 10px;
+}
+section.box-types>.wrapper>a {
+  float: right;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(0, 98, 92);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 60px;
+  text-align: center;
+  /*padding: 20px 40px;*/
+  border: 1px solid rgb(0, 98, 92);
+  display: inline-block;;
+  width: 210px;
+  height: 60px;
+  vertical-align: middle;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+section.box-types>.wrapper>a:hover {
+  background: rgb(0, 98, 92);
+  color: white;
+}
+section.box-types>.wrapper>a i{
 
 }
-section.box-types a {
-
-}
-
 /*elements*/
 section.box-elements {
   margin-bottom: 100px;
@@ -375,29 +560,85 @@ section.box-elements {
 
 }
 section.box-elements h2 {
-
+    font-size: 30px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 98, 92);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.87;
+    text-align: center;
+    margin-bottom: 40px;
 }
-section.box-elements .elements_list {
-
+section.box-elements .elements_list.more {
+  padding: 0 0 20px 0;
 }
 section.box-elements .elements_list .element {
-
+  display: inline-block;
+  width: 210px;
+  height: 278px;
+  margin: 0 25px 25px 0;
+}
+section.box-elements .elements_list .element:nth-child(5n) {
+margin-right: 0;
 }
 section.box-elements .elements_list .element .green {
-
+  width: 100%;
+  height: 62px;
+  text-align: left;
+  padding: 0;
+  letter-spacing: 1px;
+  background:  rgb(0, 98, 92);
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding: 15px 20px;
+}
+section.box-elements .elements_list .element .diametr {
+  background: #f5f6f6;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(74, 74, 73);
+  line-height: 1.333;
+  padding: 15px 0 0 20px;
+  text-align: left;
 }
 section.box-elements .elements_list .element img {
 
 }
-section.box-elements .elements_list .element p {
+section.box-elements .elements_list .element>p {
+  background: #4a4a49;
+  width: 95px;
+  height: 30px;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: left;
+  padding: 0 0 0 10px;
+}
+section.box-elements>.wrapper{
+  text-align: center;
+  }
+section.box-elements>.wrapper>i {
+  font-size: 7em;
+  opacity: 0.6;
+  cursor: pointer;
 
 }
+section.box-elements>.wrapper>i:hover {
+  opacity: 1;
+}
+
 /*
 ================================================================================
 |                                     FOOTER                                   |
 ================================================================================
 */
-footer{
+footer {
     background: #363a41;
     height:130px;
 /*	text-align:left;*/

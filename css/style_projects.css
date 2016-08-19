@@ -287,7 +287,7 @@ header .wrapper .lang .ru{
   margin: 0 45px 45px 0;
   cursor: pointer;
 }
-.content section .project:nth-child(3n+1) {
+.content section.box-head .project:nth-child(3n+1) {
   margin-right: 0;
 }
 .content section .project .discription {
@@ -310,10 +310,14 @@ header .wrapper .lang .ru{
   line-height: 1.333;
   padding: 10px 20px;
   height: 77px;
+  display: table-cell;
+  width: 356px;
+  vertical-align: middle;
 }
 /*blocks*/
 section.box-info {
   text-align: center;
+  margin-bottom: 50px;
 }
 section.box-info i {
   font-size: 7em;
@@ -322,6 +326,9 @@ section.box-info i {
 }
 section.box-info i:hover {
   opacity: 1;
+}
+section.box-info .project:nth-child(3n) {
+  margin-right: 0;
 }
 /*
 ================================================================================

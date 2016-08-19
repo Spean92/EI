@@ -45,10 +45,12 @@ $(window).bind('resize', handler);
 
 $(document).ready(function(){
 
+// slidedown menu
 		$('header>.wrapper>nav>ul>li:nth-child(2)').click(function(){
 			$('header>.wrapper>nav>ul>li>ul').slideToggle(200);
 		});
 
+// owl-carousel
     $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -56,11 +58,27 @@ $(document).ready(function(){
         mouseDrag: false
 			});
 
+// show_more and less buttons
     $('.show_more').click(function(){
-       $('.show_more').fadeOut();
-        $('.more').slideDown(300);
+			$('.show_more').hide(100);
+			$('.show_less').fadeIn(300);
+			$('.more').slideDown(300);
     });
+		$('.show_less').click(function(){
+			$('.show_less').hide();
+			$('.show_more').fadeIn(300);
+			$('.more').slideUp(300);
+		});
 
+// certificates in assortiment
+		$('.left-side>.buts a').click(function(){
+				$('.certificates').show(300);
+		});
+		$('.certificates i').click(function(){
+				$('.certificates').hide(300);
+		});
+
+// fancybox
 		$(".fancybox").fancybox({
 				prevEffect	: 'none',
 				nextEffect	: 'none',
