@@ -53,8 +53,8 @@ $(document).ready(function(){
 // owl-carousel
     $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
-    autoplay: 2000,
+    // margin:10,
+    autoplay : 3000,
         mouseDrag: false
 			});
 

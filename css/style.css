@@ -20,7 +20,7 @@ input, textarea {color: #333;  outline:none; border-radius: 0; -moz-border-radiu
 input[type="button"], input[type="submit"], button {cursor: pointer}
 td{margin: 0px; padding: 0px;}
 form{padding: 0px; margin: 0px;}
-a{color: #000100; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; -ms-transition: all 0.2s linear; -webkit-transition: all 0.2s linear; transition: all 0.2s linear; text-decoration:none; outline:none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+a{color: #000100; -moz-transition: all 0.35s linear; -o-transition: all 0.35s linear; -ms-transition: all 0.35s linear; -webkit-transition: all 0.35s linear; transition: all 0.35s linear; text-decoration:none; outline:none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 input[type=submit], input[type=button], button{-webkit-appearance: none; outline: none;}
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 *:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
@@ -208,6 +208,11 @@ header .wrapper nav>ul>li>ul {
 header .wrapper nav>ul>li>ul>li {
     padding: 13px 40px 10px 40px;
     border-bottom: 1px solid rgb(0, 98, 92);
+    transition: all .3s linear;
+}
+header .wrapper nav>ul>li>ul>li:hover {
+background: rgb(1, 68, 64);
+text-decoration: underline;
 }
 header .wrapper nav>ul>li>ul>li>a {
     color: rgb(255, 255, 255);
@@ -238,9 +243,12 @@ header .wrapper .contacts a{
     padding: 18px 15px;
     letter-spacing: 0.5px;
 }
+header .wrapper .contacts a:hover{
+  background: rgb(1, 68, 64);
+}
 header .wrapper .lang {
     position: absolute;
-    top: 471px;
+    top: 473px;
     left: 60px
 }
 header .wrapper .lang .ru, .en {
@@ -359,6 +367,7 @@ main section.box-info .wrapper .left header, .right header {
     background: rgb(0, 98, 92);
     padding: 12px 20px 12px 20px;
     cursor: pointer;
+    position: relative;
 }
 main section.box-info .wrapper .left header:hover a, .right header:hover a {
     text-decoration: underline;
@@ -408,6 +417,13 @@ main section.box-info .wrapper .left>a, .right>a{
     text-align: center;
     cursor: pointer;
 }
+main section.box-info .wrapper .left a i, .right a i{
+  position: absolute;
+  right: 13%;
+}
+main section.box-info .wrapper .left>a i, .right>a i{
+  top: 35%;
+}
 main section.box-info .wrapper .left>a:hover, .right>a:hover{
     text-decoration: underline;
 }
@@ -425,6 +441,7 @@ main section.box-questions .wrapper header {
     background: rgb(0, 98, 92);
     padding: 12px 20px 12px 20px;
     cursor: pointer;
+    position: relative;
 }
 main section.box-questions .wrapper header:hover a {
     text-decoration: underline;
@@ -519,7 +536,16 @@ main section.box-questions .wrapper>a{
 main section.box-questions .wrapper>a:hover{
     text-decoration: underline;
 }
-
+main section.box-questions .wrapper a i{
+  position: absolute;
+  right: 13%;
+}
+body > div.main-wrapper > main > section.box-questions > div > div.secondary_block > a > i {
+  left: 26%;
+}
+main section.box-questions .wrapper>a i{
+top: 35%;
+}
 /*
 ================================================================================
 |                                     FOOTER                                   |
@@ -586,4 +612,7 @@ footer .wrapper .contacts a{
     position: absolute;
     top: -57px;
     right: 15px;
+}
+footer .wrapper .contacts a:hover{
+  background: rgb(1, 68, 64);
 }

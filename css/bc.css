@@ -344,6 +344,7 @@ section.box-photo {
 section.box-photo .pics {
   display: inline-block;
   width: 24.7%;
+  margin-bottom: 20px;
 }
 section.box-photo i {
   font-size: 7em;
