@@ -70,6 +70,15 @@ $(document).ready(function(){
 			$('.more').slideUp(300);
 		});
 
+// show news, stati
+		$('.show_news').click(function(){
+			$('section.box-right .news').fadeIn(300);
+			$('section.box-right .stati').fadeOut(300);
+		});
+		$('.show_stati').click(function(){
+			$('section.box-right .stati').fadeIn(300);
+			$('section.box-right .news').fadeOut(300);
+		});
 // certificates in assortiment
 		$('.left-side>.buts a').click(function(){
 				$('.certificates').show(300);

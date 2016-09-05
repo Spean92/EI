@@ -1,0 +1,20 @@
+<?xml-stylesheet type="text/css" href="../css/style_tehdocs.css" ?>
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="346.333px" height="397px" viewBox="0 0 346.333 397" enable-background="new 0 0 346.333 397" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="346.333" height="397"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#00615D" stroke-width="15" stroke-miterlimit="10" d="M271.167,255.833
+		c0,0-120-26.333-127-161.333c0,0,0.333-23.167,13.667-25.167c13.333-2,27.167,21,8.833,69c-18.333,48-51.667,134.333-90.5,176.667
+		c0,0-30.667,26.333-31.5,1.833s62.167-53,62.167-53s110-48.667,188.667-31.5c0,0,20.5,7.667,8.167,21.833
+		C303.667,254.166,294.667,262.166,271.167,255.833z"/>
+	<polygon clip-path="url(#SVGID_2_)" fill="none" stroke="#00615D" stroke-width="15" stroke-miterlimit="10" points="7.5,7.5
+		239.5,7.5 338.833,106.833 338.833,389.5 7.5,389.5 	"/>
+	<polyline clip-path="url(#SVGID_2_)" fill="none" stroke="#00615D" stroke-width="15" stroke-miterlimit="10" points="
+		338.833,106.833 239.416,106.75 239.5,7.5 	"/>
+</g>
+</svg>
