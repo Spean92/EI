@@ -102,4 +102,17 @@ $(document).ready(function(){
 				}
 		});
 
+// PopUp
+//
+
+ $("a.openPopup").click(function(){
+	 $(".popUp").fadeIn();
+ });
+$(".popUp").click(function(e) {
+    if($(e.target).closest(".window").length==0) $(".popUp").fadeOut();
+});
+$(".close").click(function(){
+	$(".popUp").fadeOut();
+});
+
 });
