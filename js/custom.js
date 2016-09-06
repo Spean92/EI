@@ -52,7 +52,7 @@ $(document).ready(function(){
 		$('header>.wrapper>nav>ul>li>ul').mouseover(function(){
 			$('header>.wrapper>nav>ul>li>ul').css('display', 'block');
 		});
-		$('header>.wrapper>nav>ul>li>ul').mouseout(function(){
+		$('header>.wrapper>nav>ul>li>ul, a').mouseout(function(){
 			$('header>.wrapper>nav>ul>li>ul').css('display', 'none');
 		});
 		// $('header>.wrapper>nav>ul>li:nth-child(2)>ul>li>a').mouseout(function(){
@@ -64,7 +64,7 @@ $(document).ready(function(){
     loop:true,
     // margin:10,
     autoplay : 3000,
-        mouseDrag: false
+        mouseDrag: true
 			});
 
 // show_more and less buttons
@@ -123,5 +123,14 @@ $(".popUp").click(function(e) {
 $(".close").click(function(){
 	$(".popUp").fadeOut();
 });
+
+// some shit
+	$(".element").click(function(){
+		$(".element").removeClass("active");
+		$(this).addClass("active");
+		$(".center-side>.grey_bg").fadeOut();
+		$(".center-side>.grey_bg").fadeIn(300);
+	});
+
 
 });

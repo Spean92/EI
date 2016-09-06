@@ -281,7 +281,7 @@ header .popUp .popUp_bg .window {
     background: #fff;
   	width: 575px;
   	height: 666px;
-  	margin: 10vh auto;
+  	margin: 2vh auto;
   	text-align: center;
   	z-index: 9999;
     position: relative;
@@ -404,7 +404,7 @@ main section.box-slider .slide.oman>div p {
 main section.box-slider .slide.paro>div p, .slide.hydro>div p, .slide.evro>div p {
     background: #00625c !important;
 }
-main section.box-slider .slide>div a {
+main section.box-slider .slide>div>a:nth-child(2) {
     display: inline-block;
     font-size: 20px;
     font-family: "Myriad Pro";

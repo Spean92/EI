@@ -208,6 +208,11 @@ header .wrapper nav>ul>li>ul {
 header .wrapper nav>ul>li>ul>li {
     padding: 13px 40px 10px 40px;
     border-bottom: 1px solid rgb(0, 98, 92);
+    transition: all .3s linear;
+}
+header .wrapper nav>ul>li>ul>li:hover {
+    background: rgb(1, 68, 64);
+    text-decoration: underline;
 }
 header .wrapper nav>ul>li>ul>li>a {
     color: rgb(255, 255, 255);
@@ -272,7 +277,7 @@ header .popUp .popUp_bg .window {
     background: #fff;
   	width: 575px;
   	height: 666px;
-  	margin: 10vh auto;
+  	margin: 2vh auto;
   	text-align: center;
   	z-index: 9999;
     position: relative;
@@ -414,7 +419,7 @@ section.box-description .left-side .text p, .more {
     color: rgb(74, 74, 73);
     line-height: 1.4;
     padding: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 section.box-description .left-side .text .more {
   padding-top: 0;
@@ -427,6 +432,7 @@ section.box-description .left-side .text span {
     text-decoration: underline;
     padding: 0 0 0 40px;
     cursor: pointer;
+        margin-top: 20px;
 }
 section.box-description .left-side .text .certificates {
   position: absolute;
@@ -547,7 +553,7 @@ section.box-types .left-side h2 i {
 }
 section.box-types .left-side .grey_bg {
   background: #f5f6f6;
-  padding: 10px 40px 20px 40px;
+  padding: 10px 20px 20px 20px;
   font-size: 15px;
   font-family: "Myriad Pro";
   color: rgb(74, 74, 73);
@@ -559,7 +565,16 @@ section.box-types .left-side .grey_bg .element {
     font-family: "Myriad Pro";
     color: rgb(74, 74, 73);
     line-height: 1.2;
-    margin:25px auto;
+    margin: 0 auto;
+    padding: 20px;
+    cursor: pointer;
+    border: 1px solid #f5f6f6;
+}
+section.box-types .left-side .grey_bg .element:hover {
+  border: 1px solid rgb(0, 98, 92);
+}
+section.box-types .left-side .grey_bg .element.active {
+  border: 1px solid rgb(0, 98, 92);
 }
 section.box-types .left-side .grey_bg .element .logo{
   width: 145px;

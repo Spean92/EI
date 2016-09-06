@@ -208,6 +208,11 @@ header .wrapper nav>ul>li>ul {
 header .wrapper nav>ul>li>ul>li {
     padding: 13px 40px 10px 40px;
     border-bottom: 1px solid rgb(0, 98, 92);
+    transition: all .3s linear;
+}
+header .wrapper nav>ul>li>ul>li:hover {
+    background: rgb(1, 68, 64);
+    text-decoration: underline;
 }
 header .wrapper nav>ul>li>ul>li>a {
     color: rgb(255, 255, 255);
@@ -273,7 +278,7 @@ header .popUp .popUp_bg .window {
     background: #fff;
   	width: 575px;
   	height: 666px;
-  	margin: 10vh auto;
+  	margin: 2vh auto;
   	text-align: center;
   	z-index: 9999;
     position: relative;
