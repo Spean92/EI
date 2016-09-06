@@ -257,7 +257,83 @@ header .wrapper .lang .ru{
     background: #404040;
     color: rgb(237, 239, 241);
 }
+header .popUp {
 
+}
+header .popUp .popUp_bg {
+    position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background: rgba(0, 0, 0, 0.5);
+}
+header .popUp .popUp_bg .window {
+    background: #fff;
+  	width: 575px;
+  	height: 666px;
+  	margin: 10vh auto;
+  	text-align: center;
+  	z-index: 9999;
+    position: relative;
+}
+header .popUp .popUp_bg .window img{
+  cursor: pointer;
+  position: absolute;
+  right: -36px;
+}
+header .popUp .popUp_bg .window .wrap{
+padding: 55px 45px;
+}
+header .popUp .popUp_bg .window .wrap h2{
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 98, 92);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.305;
+}
+header .popUp .popUp_bg .window .wrap form {
+
+}
+header .popUp .popUp_bg .window .wrap form label {
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(0, 110, 99);
+    text-transform: uppercase;
+    line-height: 1.333;
+    text-align: right;
+    display: block;
+    margin-bottom: 20px;
+}
+header .popUp .popUp_bg .window .wrap form label input{
+  width: 355px;
+  height: 45px;
+  margin-left: 20px;
+  background-color: #e8e9eb;
+  font-size: 20px;
+  padding-left: 10px;
+
+}
+header .popUp .popUp_bg .window .wrap form label input[type="textarea"] {
+height: 150px;
+}
+header .popUp .popUp_bg .window .wrap form button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 98, 92);
+    background-color: rgb(0, 110, 99);
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.467;
+  letter-spacing: 1px;
+  width: 160px;
+  height: 60px;
+  float: right;
+}
 
 /*
 ================================================================================
