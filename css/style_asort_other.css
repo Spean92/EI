@@ -179,6 +179,10 @@ header .wrapper>nav {
 header .wrapper nav>ul>li{
     display: inline-block;
     margin: 0 15px;
+    height: 30px;
+}
+header .wrapper nav>ul>li:hover ul{
+  display: block;
 }
 header .wrapper nav>ul>li a{
     font-size: 15.5px;
@@ -361,6 +365,7 @@ header .popUp .popUp_bg .window .wrap form button{
   text-transform: uppercase;
   text-align: center;
   margin: 40px 0;
+  width: 90%;
   }
 
 /*benefits*/

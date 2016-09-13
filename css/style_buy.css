@@ -179,6 +179,10 @@ header .wrapper>nav {
 header .wrapper nav>ul>li{
     display: inline-block;
     margin: 0 15px;
+    height: 30px;
+}
+header .wrapper nav>ul>li:hover ul{
+  display: block;
 }
 header .wrapper nav>ul>li a{
     font-size: 15.5px;
@@ -421,7 +425,7 @@ section.box-map .right-box .info .diler .left a{
   font-weight: bold;
   text-decoration: underline;
   line-height: 1.333;
-
+  cursor: pointer;
 }
 section.box-map .right-box .info .diler .right {
   position: absolute;

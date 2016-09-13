@@ -369,9 +369,19 @@ margin-bottom: 50px;
 }
 section.box .one {
   display: inline-block;
-  width: 355px;
+  width: 357px;
   margin: 20px;
   vertical-align: top;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all .5s ease;
+  border: 1px solid #f5f6f6;
+}
+section.box .one:hover {
+  top: -5px;
+  left: -5px;
+  border-color: #006E63;
 }
 section.box .one:nth-child(3n+1) {
 margin-left: 0;

@@ -179,6 +179,10 @@ header .wrapper>nav {
 header .wrapper nav>ul>li{
     display: inline-block;
     margin: 0 15px;
+    height: 30px;
+}
+header .wrapper nav>ul>li:hover ul{
+  display: block;
 }
 header .wrapper nav>ul>li a{
     font-size: 15.5px;
@@ -389,7 +393,7 @@ header .popUp .popUp_bg .window .wrap form button{
 .content section.box-info .description {
   background-color: #f5f6f6;
   font-family: "Myriad Pro";
-  height: 215px;
+  height: 170px;
   padding: 0 50px;
 }
 .content section.box-info .description .materials {

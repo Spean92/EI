@@ -179,6 +179,10 @@ header .wrapper>nav {
 header .wrapper nav>ul>li{
     display: inline-block;
     margin: 0 15px;
+    height: 30px;
+}
+header .wrapper nav>ul>li:hover ul{
+  display: block;
 }
 header .wrapper nav>ul>li a{
     font-size: 15.5px;
@@ -658,6 +662,10 @@ section.box-elements .elements_list .element {
   width: 210px;
   height: 278px;
   margin: 0 25px 25px 0;
+  transition: all .3s ease;
+}
+section.box-elements .elements_list .element:hover {
+transform: scale(1.2);
 }
 section.box-elements .elements_list .element:nth-child(5n) {
 margin-right: 0;
@@ -689,6 +697,7 @@ section.box-elements .elements_list .element .diametr {
 section.box-elements .elements_list .element img {
 
 }
+
 section.box-elements .elements_list .element>p {
   background: #4a4a49;
   width: 95px;

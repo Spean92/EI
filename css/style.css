@@ -179,6 +179,10 @@ header .wrapper>nav {
 header .wrapper nav>ul>li{
     display: inline-block;
     margin: 0 15px;
+    height: 30px;
+}
+header .wrapper nav>ul>li:hover ul{
+  display: block;
 }
 header .wrapper nav>ul>li a{
     font-size: 15.5px;
@@ -422,7 +426,7 @@ main section.box-slider .slide>div a:hover {
 
 /*left and right blocks*/
 main section.box-info {
-padding-top: 450px;
+padding-top: 400px;
 }
 main section.box-info .wrapper .left, .right {
     width: 48%;

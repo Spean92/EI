@@ -179,6 +179,10 @@ header .wrapper>nav {
 header .wrapper nav>ul>li{
     display: inline-block;
     margin: 0 15px;
+    height: 30px;
+}
+header .wrapper nav>ul>li:hover ul{
+  display: block;
 }
 header .wrapper nav>ul>li a{
     font-size: 15.5px;
@@ -367,7 +371,15 @@ header .popUp .popUp_bg .window .wrap form button{
   vertical-align: top;
   margin: 0 45px 45px 0;
   cursor: pointer;
+  position: relative;
+  border: 1px solid #fff;
+  transition: all .3s ease;
 }
+.content section .project:hover {
+  transform: scale(1.1);
+  border-color: #000;
+}
+
 .content section.box-head .project:nth-child(3n+1) {
   margin-right: 0;
 }
