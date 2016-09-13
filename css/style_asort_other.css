@@ -466,6 +466,12 @@ section.box-description .left-side .text .certificates i {
   opacity: 0.5;
   cursor: pointer;
 }
+section.box-description .left-side .text .certificates a img{
+transition: all .3s ease;
+}
+section.box-description .left-side .text .certificates a:hover{
+  transform: scale(1.1);
+}
 section.box-description .left-side .text .certificates i:hover {
   opacity: 1;
 }

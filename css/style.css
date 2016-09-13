@@ -245,13 +245,15 @@ header .wrapper .contacts a{
     text-align: center;
     padding: 18px 23px;
     letter-spacing: 0.5px;
+    position: absolute;
+    top: 435px;
 }
 header .wrapper .contacts a:hover{
   background: rgb(1, 68, 64);
 }
 header .wrapper .lang {
     position: absolute;
-    top: 473px;
+    top: 446px;
     left: 60px
 }
 header .wrapper .lang .ru, .en {
@@ -353,7 +355,7 @@ header .popUp .popUp_bg .window .wrap form button{
 	min-width: 320px;
 	text-align:left;
 /*	background:#000;*/
-    padding-top: 128px !important;
+    padding-top: 100px !important;
 }
 /*slider*/
 main section.box-slider {
@@ -419,7 +421,7 @@ main section.box-slider .slide>div a:hover {
 
 /*left and right blocks*/
 main section.box-info {
-padding-top: 400px;
+padding-top: 430px;
 }
 main section.box-info .wrapper .left, .right {
     width: 48%;
@@ -509,11 +511,7 @@ main section.box-questions .wrapper header {
     text-transform: uppercase;
     background: rgb(0, 98, 92);
     padding: 12px 20px 12px 20px;
-    cursor: pointer;
     position: relative;
-}
-main section.box-questions .wrapper header:hover a {
-    text-decoration: underline;
 }
 main section.box-questions .wrapper header a{
     color: white;
@@ -538,10 +536,15 @@ main section.box-questions .wrapper .main_block p {
     line-height: 1.333;
     letter-spacing: 0.4px;
 }
-main section.box-questions .wrapper .main_block p .show_more {
+main section.box-questions .wrapper .main_block p .show_more, .show_less {
     text-decoration: underline;
     color: rgb(0, 98, 92);
     cursor: pointer;
+    font-family: "MyriadProSemiBold";
+    font-size: 15px;
+}
+main section.box-questions .wrapper .main_block .show_less {
+float: right; 
 }
 main section.box-questions .wrapper .main_block .more {
     display: none;
